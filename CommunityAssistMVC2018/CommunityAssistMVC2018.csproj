@@ -267,6 +267,11 @@
     <Content Include="Views\BusinessRules\Details.cshtml" />
     <Content Include="Views\BusinessRules\Edit.cshtml" />
     <Content Include="Views\BusinessRules\Index.cshtml" />
+    <Content Include="Views\GrantTypes\Create.cshtml" />
+    <Content Include="Views\GrantTypes\Delete.cshtml" />
+    <Content Include="Views\GrantTypes\Details.cshtml" />
+    <Content Include="Views\GrantTypes\Edit.cshtml" />
+    <Content Include="Views\GrantTypes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

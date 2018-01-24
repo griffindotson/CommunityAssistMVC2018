@@ -1,0 +1,58 @@
+﻿@model CommunityAssistMVC2018.Models.GrantType
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>GrantType</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GrantTypeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GrantTypeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GrantTypeDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GrantTypeDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GrantTypemaximum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GrantTypemaximum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GrantTypeLifetimeMaximum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GrantTypeLifetimeMaximum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GrantTypeDateEntered)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GrantTypeDateEntered)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GrantTypeKey }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

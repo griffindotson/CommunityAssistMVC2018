@@ -152,6 +152,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BusinessRulesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -197,6 +198,7 @@
     <Compile Include="Models\LoginHistory.cs">
       <DependentUpon>CommunityAssistModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\NewPerson.cs" />
     <Compile Include="Models\Person.cs">
       <DependentUpon>CommunityAssistModel.tt</DependentUpon>
     </Compile>
@@ -272,6 +274,8 @@
     <Content Include="Views\GrantTypes\Details.cshtml" />
     <Content Include="Views\GrantTypes\Edit.cshtml" />
     <Content Include="Views\GrantTypes\Index.cshtml" />
+    <Content Include="Views\Registration\ThankYou.cshtml" />
+    <Content Include="Views\Registration\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

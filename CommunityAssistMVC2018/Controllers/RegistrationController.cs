@@ -21,7 +21,10 @@ namespace CommunityAssistMVC2018.Controllers
         {
             return View();
         }
-
+        public ActionResult ThankYou()
+        {
+            return View();
+        }
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Register([Bind(Include = "lastName, firstName, email, password, " +

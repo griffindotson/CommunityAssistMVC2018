@@ -1,0 +1,19 @@
+﻿@model CommunityAssistMVC2018.Models.LoginClass
+@{
+    ViewBag.Title = "Result";
+}
+
+<h2>Result</h2>
+
+@if (Model.UserKey != 0)
+{
+    <p>
+        Welcome, @Html.DisplayFor(mode => Model.Email), Please feel free to donate or apply for assistance
+    </p>
+        }
+
+    else
+    {
+    <p>Invalid login, please try to login again or register as a User.</p>
+    }
+

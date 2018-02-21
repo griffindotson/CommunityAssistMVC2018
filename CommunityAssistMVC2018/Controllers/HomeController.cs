@@ -14,6 +14,7 @@ namespace CommunityAssistMVC2018.Controllers
             CommunityAssist2017Entities db =  new CommunityAssist2017Entities();
 
             return View(db.GrantTypes.ToList());
+           
         }
 
         public ActionResult About()

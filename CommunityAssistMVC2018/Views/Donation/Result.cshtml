@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Result";
+}
+
+<h2>Result</h2>
+
+@if (Session["PersonKey"] != null)
+{
+    <p>
+        Thank you for your donation
+    </p>
+}
+
+else
+{
+    <p>You are not currently logged in, Please do so before donating</p>
+}

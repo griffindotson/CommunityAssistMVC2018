@@ -12,6 +12,15 @@ namespace CommunityAssistMVC2018.Controllers
         // GET: Donation
         public ActionResult Index()
         {
+            //check to make sure they are logged in
+
+            if (Session["PersonKey"] == null)
+
+            {
+         
+                return RedirectToAction("Result");
+
+            }
             return View();
         }
 
